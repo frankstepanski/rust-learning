@@ -21,8 +21,9 @@ Can use [Visual Studio Code](https://code.visualstudio.com/docs/languages/rust) 
 Start a new package
 
 `cargo new hello_world`
-  - Creates a folder named hello_world
-  - Creates a src folder inside
+  - Creates a **hello_world** folder
+  - Creates a Cargo.toml
+  - Creates a /src folder 
   - Creates a main.rs
   - Create boilerplate code
 
@@ -31,3 +32,7 @@ Start a new package
       println!("Hello, world!");
   }
   ```
+
+### Build code
+
+`cargo build`
