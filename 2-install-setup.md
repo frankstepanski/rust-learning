@@ -8,9 +8,9 @@ https://doc.rust-lang.org/cargo/getting-started/installation.html
 
 Re-start terminal
 
-`rustup --version`
+`rustup --version` => toolchain manager version
 
-`rustc --version`
+`rustc --version` => rust compiler version
 
 ## Setup
 
