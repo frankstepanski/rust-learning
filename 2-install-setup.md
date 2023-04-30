@@ -10,9 +10,11 @@ Re-start terminal
 
 `rustup --version`
 
+`rustc --version`
+
 ## Setup
 
-Can use Visual Studio Code and [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension
+Can use [Visual Studio Code](https://code.visualstudio.com/docs/languages/rust) and [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension
 
 Start a new package
 
