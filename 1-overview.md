@@ -1,11 +1,3 @@
-## Install
-
-### Rust and Cargo
-
-https://doc.rust-lang.org/cargo/getting-started/installation.html
-
-`curl https://sh.rustup.rs -sSf | sh`
-
 ## Overview
 
 Rust compiles to either machine code or WebAssembly.
@@ -26,3 +18,8 @@ You can build with Rust:
  - static: defined before you assign
  - dynamic: desfined after you assign (cannot re-assign)
 
+Rust drawbacks:
+ - large codebase to learn
+ - strict compiler (i.e. borrow checker errors)
+ - slow compiler (i.e. long test build)
+ - Elm is a good alternaive if speed is not top priority
