@@ -36,3 +36,17 @@ Start a new package
 ### Build code
 
 `cargo build`
+
+Creates:
+ - /target folder 
+ - .rustc_info.json
+ - CACHEDIR.TAG
+ - and Cargo.lock
+
+ ### Run code
+
+ `cargo run`
+
+or execute the hello_world.exe directly by typing:
+
+`.\target\debug\hello_world`
