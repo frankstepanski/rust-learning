@@ -25,3 +25,9 @@ Start a new package
   - Creates a src folder inside
   - Creates a main.rs
   - Create boilerplate code
+
+  ```
+  fn main() {
+      println!("Hello, world!");
+  }
+  ```
