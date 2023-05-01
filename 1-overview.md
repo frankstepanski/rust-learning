@@ -69,3 +69,8 @@ println!("{}", a); // ---> "banana"
 
 ### Functions
 
+```
+fn multiply_both (x: f64, y: 64) -> f64 {
+    retun x * y;
+}
+```
