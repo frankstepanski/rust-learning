@@ -14,12 +14,24 @@ You can build with Rust:
 
  Rust has a built-in package manager and code formatter.
 
- Rust is either dynamically or statically typed:
- - static: defined before you assign
- - dynamic: desfined after you assign (cannot re-assign)
+ Rust can allows for a dynamically typed and statically types:
+   - define types before assignment (errors at compile time)
+   - types are determined at assignment (error at runtime)
 
 Rust drawbacks:
  - large codebase to learn
  - strict compiler (i.e. borrow checker errors)
  - slow compiler (i.e. long test build)
  - Elm is a good alternaive if speed is not top priority
+
+### Data Types:
+
+Primitives
+ - strings
+ - floats
+ - integers
+ - booleans
+
+
+### Functions
+
