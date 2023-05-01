@@ -35,7 +35,7 @@ Start a new package
 
 ### Build code
 
-`cargo build` OR `rustc src/main.rs`
+`cargo build`
 
 Creates:
  - /target folder 
