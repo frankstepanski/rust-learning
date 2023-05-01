@@ -15,8 +15,8 @@ You can build with Rust:
  Rust has a built-in package manager and code formatter.
 
  Rust can allows for a dynamically typed and statically types:
-   - define types before assignment (errors at compile time)
-   - types are determined at assignment (error at runtime)
+   - define types before assignment
+   - types are determined at assignment (type inference)
 
 Rust drawbacks:
  - large codebase to learn
@@ -57,8 +57,11 @@ let a = "banana"
 println!("{}", a); // ---> "banana"
 ```
 
-Primitives
- - strings
+**Primitives**
+
+  Strings: A String is stored as a vector of bytes (Vec<u8>), but guaranteed to always be a valid UTF-8 sequence. String is heap allocated, growable and not null terminated. 
+
+    `let name:string = "frank';
  - floats
  - integers
  - booleans
