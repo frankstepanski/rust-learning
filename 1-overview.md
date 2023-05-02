@@ -10,11 +10,11 @@ You can build with Rust:
  - in-browser app (WebAssembly)
  - Operating Systems
 
- Rust is all about performance (c/c++ level performance).
+Rust is all about performance (c/c++ level performance).
 
- Rust has a built-in package manager and code formatter.
+Rust has a built-in package manager and code formatter.
 
- Rust can allows for a dynamically typed and statically types:
+Rust can allows for a dynamically typed and statically types:
    - define types before assignment
    - types are determined at assignment (type inference)
 
@@ -59,12 +59,27 @@ println!("{}", a); // ---> "banana"
 
 **Primitives**
 
-  Strings: A String is stored as a vector of bytes (Vec<u8>), but guaranteed to always be a valid UTF-8 sequence. String is heap allocated, growable and not null terminated. 
+  Strings: 
+  
+  A String is stored as a vector of bytes (Vec<u8>), but guaranteed to always be a valid UTF-8 sequence. String is heap allocated, growable and not null terminated. 
 
-    `let name:string = "frank';
- - floats
- - integers
- - booleans
+  `let name:string = "frank';
+
+  Floats: 
+  
+  Rust has two different sizes of float: f64 and f32. The former is 64 bits (8 bytes) large, whereas the latter is 32 bits (4 bytes) large. 
+
+  The trade-off is that f64 can store more digits, making it more precise and able to represent larger numbers, but it takes up more memory. This memory difference can really add up in applications that store massive quantities of floating-point numbers. For example, in 3D games, f32 is very commonly used instead of f64.
+
+  ```
+    let x: f64 = 1.1;
+    let y: f32 = 2.2;
+    let z = x * y; // error incompatiable types
+  ```
+  
+  Integers
+ 
+  Booleans
 
 
 ### Functions
