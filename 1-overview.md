@@ -77,7 +77,11 @@ println!("{}", a); // ---> "banana"
     let z = x * y; // error incompatiable types
   ```
   
-  Integers
+  Integers:
+
+  Rust integers also come in different sizes, and those sizes are reflected in their types.  
+
+
  
   Booleans
 
